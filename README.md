@@ -1,9 +1,12 @@
-## crawl website by pholcus
-crawl some website by pholcus
+## Crawl website by Pholcus
 
-website include duanwenxue,kuaidaili,wx100000p,hejin-vote,etc.
+[Pholcus](https://github.com/andeya/pholcus) is a distributed high-concurrency crawler software written in pure Go language, which is only used for programming learning and research.
 
-even excited site.
+It supports three operation modes: stand-alone, server-side, and client-side, and has three operation interfaces: Web, GUI, and command line; the rules are simple and flexible, batch tasks are concurrent, and the output methods are rich (mysql/mongodb/kafka/csv/excel, etc.); in addition, it also supports two crawling modes: horizontal and vertical, and supports a series of advanced functions such as simulated login and task suspension and cancellation.
+
+This project uses Pholcus to design some crawling rules for mainstream web pages. It supports exporting data to csv, or to other data storage systems such as mysql.
+
+Websites include duanwenxue,kuaidaili,wx100000p,hejin-vote,etc.
 
 ## env
 - OS: Windows(x64 recommended),Mac,Linux
